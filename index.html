@@ -10,9 +10,19 @@
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
-
-
-
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAIJySmX5Sl0ghgdilZI53epwUE4fLHIVQ",
+        authDomain: "firemessage-2dab4.firebaseapp.com",
+        databaseURL: "https://firemessage-2dab4.firebaseio.com",
+        projectId: "firemessage-2dab4",
+        storageBucket: "firemessage-2dab4.appspot.com",
+        messagingSenderId: "201142848608"
+      };
+      firebase.initializeApp(config);
+    </script>
     <!--custom files-->
     <script src="lib/js/main.js" defer></script>
     <link rel="stylesheet" href="lib/css/style.css">
